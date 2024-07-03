@@ -1,0 +1,55 @@
+.base-section{
+    width: 90vw;
+    height: 75vh;
+    border: 2px solid red;
+    margin: auto;
+    margin-top: 50px;
+    padding: 6px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.allCars-design{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid green;
+    justify-content: space-around;
+    gap: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    overflow-y: scroll;
+    /* background-color: springgreen; */
+}
+
+.edit-section{
+    background-color: lightblue;
+    border: 2px solid lightseagreen;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+input{
+    font-size: 1em;
+}
+
+.filter{
+    background-color:deepskyblue;
+    padding: 6px;
+    margin: 6px;
+    font-style: 1em;
+    color: black;
+    border-radius: 20px;
+}
+
+.op{
+    font-size: 2em;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    padding: 6px;
+}
